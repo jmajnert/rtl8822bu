@@ -223,6 +223,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	{USB_DEVICE(0x0BDA, 0xB812), .driver_info = RTL8822B},
 	{USB_DEVICE(0x0B05, 0x1812), .driver_info = RTL8812}, /* ASUS - Edimax */
 	{USB_DEVICE(0x7392, 0xB822), .driver_info = RTL8822B}, /* Edimax - EW-7822ULC */
+	{USB_DEVICE(0x13B1, 0x0043), .driver_info = RTL8822B}, /* Linksys - WUSB6400M */
 	{USB_DEVICE(0x0b05, 0x184c), .driver_info = RTL8822B}, /* ASUS USB AC53 */
 	{USB_DEVICE(0x0b05, 0x1841), .driver_info = RTL8822B}, /* ASUS USB AC57 */
 	{USB_DEVICE(0x2357, 0x0115), .driver_info = RTL8822B}, /* Archer USB T4Uv3 */
